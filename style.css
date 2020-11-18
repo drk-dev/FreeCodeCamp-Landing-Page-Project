@@ -18,6 +18,8 @@ a {
 }
 
 img {
+    top: 0;
+    position: fixed;
     width: 350px;
     padding: 20px;
 }
@@ -31,6 +33,7 @@ header {
 }
 
 nav {
+    top: 0;
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -53,6 +56,10 @@ nav {
 }
 
 /*=========Email===========*/
+
+.top-margin {
+    margin-top: 80px;
+}
 
 .container {
     display: flex;
