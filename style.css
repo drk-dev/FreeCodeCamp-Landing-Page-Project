@@ -31,21 +31,23 @@ header {
 }
 
 nav {
+    position: fixed;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
     margin-right: 20px;
+    padding: 20px;
 }
 
-.nav-links {
+.nav-link {
     display: inline;
     margin-left: 20px;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.nav-links:hover {
+.nav-link:hover {
     border-bottom: solid;
     border-color: 1px black;
 }
